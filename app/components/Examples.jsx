@@ -4,6 +4,8 @@ var {Link} = require('react-router');
 var Examples = (props) => {
   return (
     <div>
+      <p>Use the search box to find the current weather at that location.</p>
+
       <h1 className="text-center">Example</h1>
       <p>Here are a few example locations to try out:</p>
       <ol>
