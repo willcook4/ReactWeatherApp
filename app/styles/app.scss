@@ -11,6 +11,32 @@ input[type=search] {
   box-shadow: none;
 }
 
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body, html {
+  height: auto;
+}
+
+body {
+  margin-bottom: 30px;
+  display: block;
+  // background-color: yellow;
+  // position: relative;
+  // min-height: 100%;
+  // margin: 0 0 30px;
+}
+
+.footer {
+  background-color: #e6e6e6;
+  height: 30px;
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+}
+
 @media screen and (max-width: 39.9375em) {
   .top-bar-right {
     visibility: hidden;
