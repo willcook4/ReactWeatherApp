@@ -13,7 +13,11 @@ module.exports = {
     new webpack.ProvidePlugin({
       '$': 'jquery',
       'jQuery': 'jquery'
-    })
+    }),
+    new webpack.EnvironmentPlugin([
+      // Put environment variables here...
+      'OPENWEATHERMAPAPI'
+    ])
   ],
   output: {
     path: __dirname,
