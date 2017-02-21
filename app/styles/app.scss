@@ -1,3 +1,9 @@
+// Foundation Framework
+@import 'base/foundation-settings';
+@import 'foundation';
+@include foundation-everything;
+
+
 $space-large: 2.5rem;
 $title-color: #555;
 

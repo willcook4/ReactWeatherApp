@@ -1,3 +1,5 @@
+/* global Router, Route, IndexRoute React */
+
 var React = require('react');
 var ReactDOM = require('react-dom');
 var {Route, Router, IndexRoute, hashHistory} = require('react-router');
@@ -7,11 +9,11 @@ var About = require('About');
 var Examples = require('Examples');
 
 // Load foundation
-require('style!css!foundation-sites/dist/foundation.min.css')
+// require('style-loader!css-loader!foundation-sites/dist/foundation.min.css');
 $(document).foundation();
 
-// Load CSS
-require('style!css!sass!applicationStyles')
+// Load CSS(sass)
+require('style-loader!css-loader!sass-loader!applicationStyles');
 
 ReactDOM.render(
   <Router history={hashHistory}>
